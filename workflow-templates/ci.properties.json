@@ -1,0 +1,12 @@
+{
+    "name": "CI C/C++ Workflow",
+    "description": "Continuous Integration workflow template for C/C++ projects.",
+    "iconName": "cxx",
+    "categories": [
+        "C",
+        "C++"
+    ],
+    "filePatterns": [
+        "^CMakeLists\\.txt$"
+    ]
+}
