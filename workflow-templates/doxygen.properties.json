@@ -1,0 +1,12 @@
+{
+    "name": "Doxygen Deployment Workflow",
+    "description": "Deploy Doxygen files to GitHub Pages.",
+    "iconName": "cxx",
+    "categories": [
+        "C",
+        "C++"
+    ],
+    "filePatterns": [
+        "^doc/CMakeLists\\.txt$"
+    ]
+}
