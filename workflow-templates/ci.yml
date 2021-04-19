@@ -65,7 +65,7 @@ jobs:
         path: .deps/yarp
 
     - name: Install dependencies via apt
-      run: sudo apt-get install -qq ccache googletest
+      run: sudo apt-get update && sudo apt-get install -qq ccache googletest
 
     - name: Set up CMake
       uses: jwlawson/actions-setup-cmake@v1.7
