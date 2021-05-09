@@ -43,7 +43,7 @@ jobs:
         echo "CMAKE_CXX_COMPILER_LAUNCHER=ccache" >> $GITHUB_ENV
 
     - name: Configure main project
-      run: cmake -S . -B build -DCMAKE_INSTALL_PREFIX="$PWD/build/install-system" -DNON_INTERACTIVE_BUILD=ON -DYCM_GIT_GITHUB_BASE_ADDRESS="https://roboticslab-uc3m:${{secrets.AMOR_API}}@github.com/" # remove user-pass if unused
+      run: cmake -S . -B build -DCMAKE_INSTALL_PREFIX="$PWD/build/install-system" -DNON_INTERACTIVE_BUILD=ON #-DYCM_GIT_GITHUB_BASE_ADDRESS="https://roboticslab-uc3m:${{secrets.AMOR_API}}@github.com/"
 
     - name: Build main project
       run: cmake --build build
