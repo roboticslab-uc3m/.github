@@ -1,0 +1,11 @@
+{
+    "name": "CI YCM Superbuild Workflow",
+    "description": "Continuous Integration workflow template for YCM-driven superbuild projects.",
+    "iconName": "cxx",
+    "categories": [
+        "CMake"
+    ],
+    "filePatterns": [
+        "^CMakeLists\\.txt$"
+    ]
+}
