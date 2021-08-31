@@ -37,7 +37,7 @@ jobs:
         robotology:
         - { yarp: yarp-3.3, ycm: ycm-0.12, cmake: 3.12.x }
         - { yarp: yarp-3.4, ycm: ycm-0.12, cmake: 3.12.x }
-        - { yarp: master, ycm: master, cmake: 3.12.x }
+        - { yarp: master, ycm: master, cmake: 3.16.x }
         compiler:
         - { cc: gcc, cxx: g++ }
         - { cc: clang, cxx: clang++ }
