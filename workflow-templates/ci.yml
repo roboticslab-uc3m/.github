@@ -19,7 +19,7 @@ jobs:
     outputs:
       should_skip: ${{steps.skip_check.outputs.should_skip}}
     steps:
-    - uses: fkirc/skip-duplicate-actions@v4
+    - uses: fkirc/skip-duplicate-actions@v5
       id: skip_check
       with:
         cancel_others: 'true'
@@ -48,17 +48,17 @@ jobs:
 
     steps:
     - name: Check out main project
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Check out YCM
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: robotology/ycm
         ref: ${{matrix.robotology.ycm}}
         path: .deps/ycm
 
     - name: Check out YARP
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: robotology/yarp
         ref: ${{matrix.robotology.yarp}}
@@ -73,7 +73,7 @@ jobs:
         cmake-version: ${{matrix.robotology.cmake}}
 
     - name: Set up Ccache
-      uses: hendrikmuhs/ccache-action@v1.2
+      uses: hendrikmuhs/ccache-action@v1
       with:
         key: ${{matrix.os}}-${{matrix.robotology.yarp}}-${{matrix.compiler.cc}}
 

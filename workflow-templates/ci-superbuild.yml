@@ -15,7 +15,7 @@ jobs:
     outputs:
       should_skip: ${{steps.skip_check.outputs.should_skip}}
     steps:
-    - uses: fkirc/skip-duplicate-actions@v4
+    - uses: fkirc/skip-duplicate-actions@v5
       id: skip_check
       with:
         cancel_others: 'true'
@@ -27,13 +27,13 @@ jobs:
 
     steps:
     - name: Check out main project
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Install dependencies via apt
       run: sudo apt-get update && sudo apt-get install -qq ccache
 
     - name: Set up Ccache
-      uses: hendrikmuhs/ccache-action@v1.2
+      uses: hendrikmuhs/ccache-action@v1
 
     - name: Set environment variables
       run: |

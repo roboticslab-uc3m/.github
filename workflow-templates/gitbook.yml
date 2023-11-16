@@ -14,15 +14,15 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: fkirc/skip-duplicate-actions@master
+    - uses: fkirc/skip-duplicate-actions@v5
       with:
         cancel_others: 'true'
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Run GitBook
       run: |
         docker run --rm -v $GITHUB_WORKSPACE:/gitbook ghcr.io/roboticslab-uc3m/gitbook:latest gitbook install
         docker run --rm -v $GITHUB_WORKSPACE:/gitbook ghcr.io/roboticslab-uc3m/gitbook:latest gitbook build
-    - uses: crazy-max/ghaction-github-pages@v2
+    - uses: crazy-max/ghaction-github-pages@v4
       with:
         build_dir: _book
       env:
