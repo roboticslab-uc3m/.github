@@ -93,9 +93,9 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 - [semantic-map-server](https://github.com/roboticslab-uc3m/semantic-map-server)
 - [legacy-tiago-main](https://github.com/roboticslab-uc3m/tiago-main) (private)
 
-###
+### GoFa
 
-Repositories related to our ABB robots.
+Repositories related to our ABB GoFa robots.
 
 - [abb_egm_driver](https://github.com/roboticslab-uc3m/abb_egm_driver)
 - [jr3_driver](https://github.com/roboticslab-uc3m/jr3_driver)
