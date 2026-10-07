@@ -22,6 +22,8 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - [tools](https://github.com/roboticslab-uc3m/tools) ([doxygen](https://robots.uc3m.es/tools/))
 - [vision](https://github.com/roboticslab-uc3m/vision) ([doxygen](https://robots.uc3m.es/vision/))
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) ([doxygen](https://robots.uc3m.es/yarp-devices/))
+- [rl_cartesian_controllers](https://github.com/roboticslab-uc3m/rl_cartesian_controllers)
+- [teleop-yarp-devices](https://github.com/roboticslab-uc3m/teleop-yarp-devices)
 - Simulation
   - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
   - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](https://robots.uc3m.es/openrave-yarp-plugins/))
@@ -37,6 +39,7 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 Repositories related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/amor) robot.
 
 - [amor-main](https://github.com/roboticslab-uc3m/amor-main)
+- [amor-yarp-devices](https://github.com/roboticslab-uc3m/amor-yarp-devices)
 - [amor-configuration-files](https://github.com/roboticslab-uc3m/amor-configuration-files)
 - [amor-api](https://github.com/roboticslab-uc3m/amor-api) (private)
 - Simulation
@@ -62,6 +65,8 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues) (private)
 - [teo-ipos-backup](https://github.com/roboticslab-uc3m/teo-ipos-backup) (private)
 - [teo-react-webapp](https://github.com/roboticslab-uc3m/teo-react-webapp)
+- [teo-mbed-gui](https://github.com/roboticslab-uc3m/teo-mbed-gui)
+- [aravis-yarp-devices](https://github.com/roboticslab-uc3m/aravis-yarp-devices)
 - Simulation
   - [teo-gz-sim-models](https://github.com/roboticslab-uc3m/teo-gz-sim-models)
   - [teo-gazebo-models](https://github.com/roboticslab-uc3m/teo-gazebo-models)
@@ -100,6 +105,13 @@ Repositories related to our ABB GoFa robots.
 - [abb_egm_driver](https://github.com/roboticslab-uc3m/abb_egm_driver)
 - [jr3_driver](https://github.com/roboticslab-uc3m/jr3_driver)
 - [jr3-mbed-firmware](https://github.com/roboticslab-uc3m/jr3-mbed-firmware)
+- [gofa-react-webapp](https://github.com/roboticslab-uc3m/gofa-react-webapp)
+- [rs-virtual-camera-add-in](https://github.com/roboticslab-uc3m/rs-virtual-camera-add-in)
+- [gofa-lab-surveys](https://github.com/roboticslab-uc3m/gofa-lab-surveys)
+- Demos and tools:
+  - [gofa-kinfu](https://github.com/roboticslab-uc3m/gofa-kinfu)
+  - [gofa-sketching](https://github.com/roboticslab-uc3m/gofa-sketching)
+  - [gofa-rubik-solver](https://github.com/roboticslab-uc3m/gofa-rubik-solver)
 
 ## Research
 
@@ -133,6 +145,9 @@ Repositories related to our ABB GoFa robots.
 
 Repositories related to our research in [Robot Sign Language](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robot-sign-language).
 
+- [dextra](https://github.com/roboticslab-uc3m/dextra)
+- [dextra-yarp-devices](https://github.com/roboticslab-uc3m/dextra-yarp-devices)
+- [dextra-unity-vr](https://github.com/roboticslab-uc3m/dextra-unity-vr)
 - [sign-language-papers](https://github.com/roboticslab-uc3m/sign-language-papers) (private)
 
 ### Textiles
